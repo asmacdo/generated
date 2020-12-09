@@ -1,0 +1,8 @@
+domain: example.com
+layout: python.sdk.operatorframework.io/v1
+projectName: test-mem
+resources:
+- group: cache
+  kind: Memcached
+  version: v1alpha1
+version: 3-alpha
